@@ -68,7 +68,7 @@
 
             bindings = <
     &kp Q        	&kp W        	&kp F  		&kp P		&kp B            				&kp J         	&kp L        	&kp U		&kp Y       	&kp SEMI
-    &mt LSHIFT A 	&lt FUNC R  	&lt MOUSE S 	&lt RSYM T 	&kp G                				&kp M    	&lt LSYM N 	&lt NAV E 	&lt NUM I	&mt RSHIFT O
+    &hs LSHIFT A 	&lt FUNC R  	&lt MOUSE S 	&lt RSYM T 	&kp G                				&kp M    	&lt LSYM N 	&lt NAV E 	&lt NUM I	&hs RSHIFT O
     &kp Z        	&mt LCTRL X    	&mt LALT C    	&kp D 		&kp V                				&kp K      	&kp H        	&mt RALT COMMA	&mt RCTRL DOT	&kp FSLH
                                         		&kp LGUI	&kp KP_N0	&kp BSPC	&lt EXT SPACE	&kp KP_N1 	&kp DELETE
             >;
