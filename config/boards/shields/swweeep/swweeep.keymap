@@ -93,10 +93,6 @@
     &kp LEFT  &kp UP          &kp DOWN        	&kp RIGHT       &trans                                          &trans          &kp LGUI     &none      &mt RCTRL RALT  &kp RSHIFT
     &trans    &kp HOME        &kp PG_DN		&kp END         &trans                                          &trans          &trans       &trans     &trans          &trans
                  		 	 	&trans          &trans          &trans           &trans         &trans 		&trans
-//    &trans	&trans 		&kp PG_UP     	&trans	     	&trans                                     	&trans		&trans       &trans	&trans      	&trans
-//    &kp LEFT	&kp UP		&kp DOWN   	&kp RIGHT	&trans                                     	&trans   	&kp LGUI     &none	&mt RCTRL RALT	&kp RSHIFT
-//    &trans   	&kp HOME 	&kp PG_DOWN	&kp END		&trans                                     	&trans     	&trans       &trans	&trans      	&trans
-//                                		&trans        	&trans   	&trans       &trans         	&trans		&trans
             >;
         };
 
@@ -106,7 +102,7 @@
             bindings = <
     &trans      &trans		&trans		&trans          &trans                                          &trans          &kp UNDER	&kp PIPE	&kp APOS      	&trans
     &kp CARET	&kp STAR	&kp AMPS        &none		&trans                                          &kp HASH	&kp TILDE2	&kp SLASH     	&kp DQT		&kp DOLLAR
-    &trans      &trans		&trans		&trans		&trans                                          &trans          &MINUS		&kp BSLH     	&kp GRAVE	&trans
+    &trans      &trans		&trans		&trans		&trans                                          &trans          &kp MINUS	&kp BSLH     	&kp GRAVE	&trans
                                                 &trans          &trans          &trans       &trans             &trans          &trans
             >;
         };
