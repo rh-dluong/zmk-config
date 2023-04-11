@@ -146,7 +146,7 @@
             bindings = <
     &sys_reset  &trans		&kp COLON       &kp ESC		&trans		                		&trans          &trans          &trans          &trans  &sys_reset
     &kp LBRC    &kp PERCENT 	&kp SLASH       &kp ENTER       &trans		                      		&trans          &trans          &trans          &trans 	&trans
-    &booloader	&trans		&trans		&kp EXCL	&trans                                    	&trans          &trans          &trans          &trans  &trans
+    &bootloader	&trans		&trans		&kp EXCL	&trans                                    	&trans          &trans          &trans          &trans  &trans
                                                 &trans          &trans          &kp TAB       &none     	&trans          &trans
             >;
         };
