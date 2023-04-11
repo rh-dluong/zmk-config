@@ -89,10 +89,14 @@
             label = "Navigation";
 
             bindings = <
-    &trans	&trans 		&kp PG_UP     	&trans	     	&trans                                     	&trans		&trans       &trans	&trans      	&trans
-    &kp LEFT	&kp UP		&kp DOWN   	&kp RIGHT	&trans                                     	&trans   	&kp LGUI     &none	&mt RCTRL RALT	&kp RSHIFT
-    &trans   	&kp HOME 	&kp PG_DOWN	&kp END		&trans                                     	&trans     	&trans       &trans	&trans      	&trans
-                                		&trans        	&trans   	&trans       &trans         	&trans		&trans
+    &bootloader &trans      &trans      &trans      &trans                                           &trans      &trans      &trans      &trans      &trans
+    &trans      &trans      &trans      &trans      &trans                                           &trans      &trans      &trans      &trans      &trans
+    &trans      &trans      &trans      &trans      &trans                                           &trans      &trans      &trans      &trans      &trans
+                                        &trans      &trans          &trans           &trans          &trans      &trans
+#    &trans	&trans 		&kp PG_UP     	&trans	     	&trans                                     	&trans		&trans       &trans	&trans      	&trans
+#    &kp LEFT	&kp UP		&kp DOWN   	&kp RIGHT	&trans                                     	&trans   	&kp LGUI     &none	&mt RCTRL RALT	&kp RSHIFT
+#    &trans   	&kp HOME 	&kp PG_DOWN	&kp END		&trans                                     	&trans     	&trans       &trans	&trans      	&trans
+#                                		&trans        	&trans   	&trans       &trans         	&trans		&trans
             >;
         };
 
