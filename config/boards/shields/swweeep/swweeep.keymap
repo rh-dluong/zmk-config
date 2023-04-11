@@ -66,10 +66,10 @@
             label = "Default";
 
             bindings = <
-    &kp Q        &kp W        &kp F       &kp P         &kp B                                       &kp J         &kp L        &lt WINNAV U  &kp Y       &kp SEMI
-    &hm LCTL A   &hm LGUI R   &hm LALT S  &hs LSHIFT T  &kp G                                       &lt MOUSE M   &hs RSHIFT N &hm RALT E    &hm RGUI I  &hm RCTL O
-    &kp Z        &kp X        &kp C       &kp D         &kp V                                       &kp K         &kp H        &kp COMMA     &kp DOT     &kp FSLH
-                                          &kp DEL       &lt NAV RET  &lt FUNC TAB  &lt MEDIA BSPC   &lt SYM SPACE &kp SQT
+    &kp Q             &kp W        	&kp F       &kp P         &kp B                                       &kp J         	&kp L        	&lt WINNAV U  &kp Y       &kp SEMI
+    &ht_hp LSHIFT A   &kp R   	        &kp  S      &kp T  	  &kp G                                       &lt MOUSE M    	&hs RSHIFT N 	&hm RALT E    &hm RGUI I  &hm RCTL O
+    &kp Z             &ht_hp LCTRL X    &kp C       &kp D         &kp V                                       &kp K            	&kp H        	&kp COMMA     &kp DOT     &kp FSLH
+                                        &kp LGUI     &kp KP_N0	  &kp BSPC                                    &kp SPACE  	&kp KP_N1 	&kp TILDE2
             >;
         };
 
