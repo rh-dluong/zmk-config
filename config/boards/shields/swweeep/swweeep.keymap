@@ -89,7 +89,7 @@
             label = "Navigation";
 
             bindings = <
-    &bootloader &trans      &trans      &trans      &trans                                           &trans      &trans      &trans      &trans      &trans
+    &trans    &trans          &kp PG_UP       &trans          &trans                                          &trans          &trans       &trans     &trans          &trans
     &trans      &trans      &trans      &trans      &trans                                           &trans      &trans      &trans      &trans      &trans
     &trans      &trans      &trans      &trans      &trans                                           &trans      &trans      &trans      &trans      &trans
                                         &trans      &trans          &trans           &trans          &trans      &trans
