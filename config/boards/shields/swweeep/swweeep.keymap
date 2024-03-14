@@ -78,7 +78,7 @@
             label = "Mouse";
 
             bindings = <
-    &bootloader &trans      &trans	&mkp MB3    &trans                                           &trans      &trans      &trans      &trans      &trans
+    &bootloader &trans      &trans	&trans      &trans                                           &trans      &trans      &trans      &trans      &trans
     &trans      &trans      &none  	&mkp LCLK   &mkp RCLK                                        &trans      &trans      &trans      &trans      &trans
     &trans      &trans      &trans      &mkp MB4    &mkp MB5                                         &trans      &trans      &trans      &trans      &trans
                                         &trans      &trans          &trans           &trans          &trans      &trans
