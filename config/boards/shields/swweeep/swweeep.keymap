@@ -78,9 +78,9 @@
             label = "Mouse";
 
             bindings = <
-    &bootloader &trans      &trans      &trans      &trans                                           &trans      &trans      &trans      &trans      &trans
-    &trans      &trans      &none  	&trans      &trans                                           &trans      &trans      &trans      &trans      &trans
-    &trans      &trans      &trans      &trans      &trans                                           &trans      &trans      &trans      &trans      &trans
+    &bootloader &trans      &trans      &MCLK       &trans                                           &trans      &trans      &trans      &trans      &trans
+    &trans      &trans      &none  	&LCLK	    &RCLK                                            &trans      &trans      &trans      &trans      &trans
+    &trans      &trans      &trans      &MB4        &MB5                                           &trans      &trans      &trans      &trans      &trans
                                         &trans      &trans          &trans           &trans          &trans      &trans
             >;
         };
