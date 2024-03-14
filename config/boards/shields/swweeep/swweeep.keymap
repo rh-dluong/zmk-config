@@ -67,10 +67,10 @@
             label = "Default";
 
             bindings = <
-    &kp Q        	&kp W        	&kp F  		&kp P		&kp B            				&kp J         	&kp L        	&kp U		&kp Y       	&kp SEMI
-    &hs LSHIFT A	&lt FUNC R  	&lt MOUSE S 	&lt RSYM T 	&kp G                				&kp M    	&lt LSYM N 	&lt NAV E 	&lt NUM I	&kp O
-    &kp Z        	&hm LCTRL X    	&hm LALT C    	&kp D 		&kp V                				&kp K     	&kp H        	&hm RALT COMMA	&hm RCTRL DOT	&kp FSLH
-                                        		&kp LALT 	&kp DELETE	&kp BSPC    &hm RSHIFT SPACE	&lt EXT LGUI	&kp RCTRL
+    &kp Q        	&kp W        	&kp F  		&kp P		&kp B            					&kp J         	&kp L        	&kp U		&kp Y       	&kp SEMI
+    &hs LSHIFT A	&lt FUNC R  	&lt MOUSE S 	&lt RSYM T 	&kp G                					&kp M    	&lt LSYM N 	&lt NAV E 	&lt NUM I	&kp O
+    &kp Z        	&hm LCTRL X    	&hm LALT C    	&kp D 		&kp V                					&kp K     	&kp H        	&hm RALT COMMA	&hm RCTRL DOT	&kp FSLH
+                                        		&kp LALT 	&kp LGUI	&hm RSHIFT SPACE	&kp BSPC	&lt EXT DELETE	&kp RCTRL
             >;
         };
 
@@ -78,9 +78,9 @@
             label = "Mouse";
 
             bindings = <
-    &bootloader &trans      &trans      &MCLK       &trans                                           &trans      &trans      &trans      &trans      &trans
-    &trans      &trans      &none  	&LCLK	    &RCLK                                            &trans      &trans      &trans      &trans      &trans
-    &trans      &trans      &trans      &MB4        &MB5                                           &trans      &trans      &trans      &trans      &trans
+    &bootloader &trans      &trans      &mkp MCLK   &trans                                           &trans      &trans      &trans      &trans      &trans
+    &trans      &trans      &none  	&mkp LCLK   &mkp RCLK                                        &trans      &trans      &trans      &trans      &trans
+    &trans      &trans      &trans      &MB4        &mkp MB5                                         &trans      &trans      &trans      &trans      &trans
                                         &trans      &trans          &trans           &trans          &trans      &trans
             >;
         };
@@ -147,7 +147,7 @@
     &sys_reset  &trans		&kp COLON       &kp ESC		&trans		                		&trans          &trans          &trans          &trans		&sys_reset
     &kp LBRC    &kp PERCENT 	&kp SLASH       &kp ENTER       &trans		                      		&bt BT_CLR 	&bt BT_SEL 0 	&bt BT_SEL 1	&bt BT_SEL 2 	&bt BT_SEL 3
     &bootloader	&trans		&trans		&kp EXCL	&trans                                    	&trans          &trans          &trans          &trans  	&bootloader
-                                                &trans          &trans		 &trans       &kp TAB     	&none    	&trans
+                                                &trans          &trans		 &kp TAB       &trans     	&none    	&trans
             >;
         };
     };
